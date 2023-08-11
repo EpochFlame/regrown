@@ -1020,6 +1020,7 @@ LIBS = [
             ["plugProjectKandoU/vsCoinOtakaraName", True],
             ["plugProjectKandoU/pelletBirthBuffer", True],
             ["plugProjectKandoU/vsFifo", True],
+            ["plugProjectKandoU/blowPiki", True],
         ],
     },
     {
@@ -1643,6 +1644,7 @@ LIBS = [
             "utilityU/PSMainSide_Factory",
             "utilityU/PSMainSide_ObjSound",
             "utilityU/PSMainSide_Demo",
+            ["utilityU/PSMainSide_Demoa", True],
             "utilityU/PSMainSide_Scene",
             "utilityU/PSMainSide_BossMgr",
             "utilityU/PSMainSide_Se",

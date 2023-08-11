@@ -134,6 +134,7 @@ KANDO_FILES:=\
 	$(BUILD_DIR)/src/plugProjectKandoU/vsCoinOtakaraName.o\
 	$(BUILD_DIR)/src/plugProjectKandoU/pelletBirthBuffer.o\
 	$(BUILD_DIR)/src/plugProjectKandoU/vsFifo.o\
+	$(BUILD_DIR)/src/plugProjectKandoU/blowPiki.o\
 
 DEPENDS += $(KANDO_FILES:.o=.d)
 
