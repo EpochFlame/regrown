@@ -1020,7 +1020,6 @@ LIBS = [
             ["plugProjectKandoU/vsCoinOtakaraName", True],
             ["plugProjectKandoU/pelletBirthBuffer", True],
             ["plugProjectKandoU/vsFifo", True],
-            ["plugProjectKandoU/blowPiki", True],
         ],
     },
     {
@@ -1519,6 +1518,16 @@ LIBS = [
             ["plugProjectKonoU/khWinLose", True],
             ["plugProjectKonoU/khWinLoseReason", True],
             ["plugProjectKonoU/khMailSaveData", True],
+        ],
+    },
+    {
+        "lib": "epochMod",
+        "cflags": "$cflags_pikmin",
+        "mw_version": "2.6",
+        "host": True,
+        "objects": [
+            ["epochMod/blowPiki", True],
+            ["epochMod/smokyFrog", True],
         ],
     },
     {
